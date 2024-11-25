@@ -22,6 +22,12 @@ def clean_output(output):
         r"Enter\s+(?:the\s+)?number\s+of\s+terms:\s*",
         r"Enter\s+two\s+numbers:\s*",
         r"Enter\s+base\s+and\s+exponent:\s*",
+        r"Enter\s+number\s+of\s+rotations:\s*",
+        r"Enter\s+a\s+postfix\s+expression:\s*",
+        r"Enter\s+the\s+number\s+of\s+nodes\s+in\s+the\s+binary\s+tree:\s*",
+        r"Enter\s+first\s+string:\s*",
+        r"Enter\s+second\s+string:\s*",
+        r"Enter\s+the\s+number\s+up\s+to\s+which\s+you\s+want\s+to\s+find\s+primes:\s*",
     ]
     
     result = output
@@ -84,8 +90,8 @@ def get_test_input(lab_number):
         19: "48 18\n",                              # GCD
         20: "2 5\n",                                # Power calculation
         21: "2 3\n1 2 3\n4 5 6\n",                 # Matrix transpose
-        22: "5\n1 2 3 4 5\n4\n",                   # Binary search
-        23: "3\n1 2 3\n",                          # Linked list reversal
+        22: "23+4*\n",                             # Postfix evaluation
+        23: "3\n1 2 3\n",                          # Circular queue
         24: "10\n",                                # Prime numbers
         25: "3\napple\nbanana\napricot\n",         # Sort strings
         26: "5\n",                                 # Factorial recursive
