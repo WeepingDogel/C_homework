@@ -56,7 +56,7 @@ venv/
 ENV/
 env.bak/
 venv.bak/
-
+output/
 # IntelliJ IDEA
 *.iml
 *.iws
