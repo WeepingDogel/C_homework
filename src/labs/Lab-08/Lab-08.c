@@ -15,7 +15,7 @@ void quickSort(int arr[], int low, int high) {
 }
 
 int main() {
-    int arr[] = {10, 7, 8, 9, 1, 5};
+    int arr[] = {10, 80, 30, 90, 40};
     int n = sizeof(arr) / sizeof(arr[0]);
 
     // Sort the array
