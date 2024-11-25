@@ -8,25 +8,25 @@ EXPECTED_OUTPUTS_FILE = os.path.join(LABS_DIR, "expected_outputs.txt")
 
 def clean_output(output):
     """Clean program output by removing prompts and extra whitespace"""
-    # Remove common prompt texts
-    prompts = [
-        "Enter a number: ",
-        "Enter the size of the array: ",
-        "Enter elements: ",
-        "Enter a string: ",
-        "Enter the number of vertices and edges: ",
-        "Enter edge (u v): ",
-        "Enter infix expression: ",
-        "Enter dimensions of matrix 1 (rows cols): ",
-        "Enter dimensions of matrix 2 (rows cols): ",
-        "Enter the number of terms: ",
-        "Enter two numbers: ",
-        "Enter base and exponent: ",
+    # Remove common prompt texts using regex patterns
+    prompt_patterns = [
+        r"Enter\s+(?:a\s+)?number:\s*",
+        r"Enter\s+(?:the\s+)?size\s+of\s+(?:the\s+)?array:\s*",
+        r"Enter\s+(?:the\s+)?(?:\d+\s+)?elements?:\s*",
+        r"Enter\s+(?:the\s+)?number\s+of\s+elements?:\s*",
+        r"Enter\s+(?:a\s+)?string:\s*",
+        r"Enter\s+(?:the\s+)?number\s+of\s+vertices\s+and\s+edges:\s*",
+        r"Enter\s+edge\s+\(u\s+v\):\s*",
+        r"Enter\s+infix\s+expression:\s*",
+        r"Enter\s+dimensions\s+of\s+matrix\s+[12]\s+\(rows\s+cols\):\s*",
+        r"Enter\s+(?:the\s+)?number\s+of\s+terms:\s*",
+        r"Enter\s+two\s+numbers:\s*",
+        r"Enter\s+base\s+and\s+exponent:\s*",
     ]
     
     result = output
-    for prompt in prompts:
-        result = result.replace(prompt, "")
+    for pattern in prompt_patterns:
+        result = re.sub(pattern, '', result)
     
     # Remove extra whitespace and normalize line endings
     result = re.sub(r'\s+', ' ', result).strip()
