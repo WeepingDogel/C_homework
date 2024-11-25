@@ -1,0 +1,393 @@
+# Expected Outputs for Lab-01 to Lab-50
+
+## Lab-01: Factorial of a Number
+Input: 5
+Expected Output:
+Factorial of 5 is 120
+
+---
+
+## Lab-02: Reverse a String
+Input: hello
+Expected Output:
+Reversed string: olleh
+
+---
+
+## Lab-03: Dynamically Allocated Array
+Input:
+5
+10 20 30 40 50
+Expected Output:
+The elements of the array are:
+10 20 30 40 50
+
+---
+
+## Lab-04: Swap Two Numbers
+Input:
+10 20
+Expected Output:
+Before swapping: x = 10, y = 20
+After swapping: x = 20, y = 10
+
+---
+
+## Lab-05: Bubble Sort
+Input:
+5
+5 3 8 6 2
+Expected Output:
+Sorted array: 2 3 5 6 8
+
+---
+
+## Lab-06: Linked List Creation
+Input: Add 10, 20, 30 to the linked list
+Expected Output:
+Linked List: 10 -> 20 -> 30 -> NULL
+
+---
+
+## Lab-07: Binary Search Tree
+Input: Insert 50, 30, 70, 20, 40
+Expected Output:
+In-order Traversal: 20 30 40 50 70
+
+---
+
+## Lab-08: Quick Sort
+Input:
+5
+10 80 30 90 40
+Expected Output:
+Sorted array: 10 30 40 80 90
+
+---
+
+## Lab-09: Fibonacci Numbers
+Input: 6
+Expected Output:
+Fibonacci Series: 0 1 1 2 3 5
+
+---
+
+## Lab-10: Merge Two Sorted Arrays
+Input:
+Array 1: 1 3 5
+Array 2: 2 4 6
+Expected Output:
+Merged array: 1 2 3 4 5 6
+
+---
+
+## Lab-11: Count Leaf Nodes in Binary Tree
+Input: Binary Tree: Root=10, Left=20, Right=30
+Expected Output:
+Leaf nodes: 2
+
+---
+
+## Lab-12: Depth First Search (DFS)
+Input: Graph with 4 vertices and edges (0-1, 1-2, 2-3)
+Expected Output:
+DFS Traversal: 0 1 2 3
+
+---
+
+## Lab-13: Sum of Digits
+Input: 123
+Expected Output:
+Sum of digits: 6
+
+---
+
+## Lab-14: Stack Using Array
+Input: Push 10, Push 20, Push 30, Pop
+Expected Output:
+Popped element: 30
+
+---
+
+## Lab-15: Infix to Postfix
+Input: a+b*c
+Expected Output:
+Postfix Expression: abc*+
+
+---
+
+## Lab-16: Breadth First Search (BFS)
+Input: Graph with 4 vertices and edges (0-1, 1-2, 2-3)
+Expected Output:
+BFS Traversal: 0 1 2 3
+
+---
+
+## Lab-17: Matrix Multiplication
+Input:
+Matrix A: 
+1 2
+3 4
+Matrix B:
+5 6
+7 8
+Expected Output:
+Resultant Matrix:
+19 22
+43 50
+
+---
+
+## Lab-18: Rotate an Array
+Input: Array: 1 2 3 4 5, Rotate by 2
+Expected Output:
+Rotated Array: 4 5 1 2 3
+
+---
+
+## Lab-19: GCD of Two Numbers
+Input: 48, 18
+Expected Output:
+GCD: 6
+
+---
+
+## Lab-20: Power of a Number
+Input: Base=2, Exponent=5
+Expected Output:
+Result: 32
+
+---
+
+## Lab-21: Transpose of a Matrix
+Input:
+Matrix:
+1 2 3
+4 5 6
+Expected Output:
+Transposed Matrix:
+1 4
+2 5
+3 6
+
+---
+
+## Lab-22: Binary Search in Sorted Array
+Input: Array: 1 2 3 4 5, Key=4
+Expected Output:
+Key found at index: 3
+
+---
+
+## Lab-23: Linked List Reversal
+Input: Linked List: 1->2->3->NULL
+Expected Output:
+Reversed List: 3->2->1->NULL
+
+---
+
+## Lab-24: Prime Numbers Using Sieve
+Input: 10
+Expected Output:
+Prime numbers: 2 3 5 7
+
+---
+
+## Lab-25: Sorting Strings
+Input: apple, banana, apricot
+Expected Output:
+Sorted Strings: apricot, apple, banana
+
+---
+
+## Lab-26: Factorial Using Recursion
+Input: 5
+Expected Output:
+Factorial: 120
+
+---
+
+## Lab-27: Check Palindrome
+Input: madam
+Expected Output:
+Palindrome: Yes
+
+---
+
+## Lab-28: Merge Sort
+Input: Array: 5 4 3 2 1
+Expected Output:
+Sorted Array: 1 2 3 4 5
+
+---
+
+## Lab-29: Longest Common Subsequence
+Input: Strings: ABCD, ACDB
+Expected Output:
+Length of LCS: 3
+
+---
+
+## Lab-30: Hash Table with Chaining
+Input: Keys: 10, 20, 30
+Expected Output:
+Hash Table:
+Index 0: 10
+Index 1: 20
+Index 2: 30
+
+---
+
+## Lab-31: Detect Cycle in a Linked List
+Input: Linked List with cycle at node 3
+Expected Output:
+Cycle detected: Yes
+
+---
+
+## Lab-32: Count Number of Islands
+Input: 4x4 Grid:
+1 1 0 0
+1 0 0 1
+0 0 1 1
+0 0 0 1
+Expected Output:
+Number of islands: 3
+
+---
+
+## Lab-33: Find Maximum Depth of a Binary Tree
+Input: Binary Tree: Root=1, Left=2, Right=3, Right->Right=4
+Expected Output:
+Maximum Depth: 3
+
+---
+
+## Lab-34: Find Kth Smallest Element in an Array
+Input: Array: 7 10 4 3 20 15, K=3
+Expected Output:
+Kth Smallest Element: 7
+
+---
+
+## Lab-35: Trie with Deletion Operation
+Input: Insert "hello", "world"; Delete "hello"
+Expected Output:
+Search for 'hello': Not Found
+Search for 'world': Found
+
+---
+
+## Lab-36: Floyd Cycle Detection Algorithm
+Input: Sequence: 1 2 3 4 2
+Expected Output:
+Cycle detected: Yes
+
+---
+
+## Lab-37: Serialize and Deserialize a Binary Tree
+Input: Binary Tree: Root=1, Left=2, Right=3, Right->Left=4, Right->Right=5
+Expected Output:
+Serialized: 1,2,#,#,3,4,#,#,5,#,#
+Deserialized: Same Binary Tree Structure
+
+---
+
+## Lab-38: Job Scheduling Problem
+Input: Jobs (Profit, Deadline): (20, 2), (15, 2), (10, 1), (5, 3), (1, 3)
+Expected Output:
+Maximum Profit: 40
+
+---
+
+## Lab-39: Z-Algorithm for Pattern Matching
+Input: Text: "abcxabcdabxabcdabcdabcy", Pattern: "abcdabcy"
+Expected Output:
+Pattern found at index: 15
+
+---
+
+## Lab-40: Word Ladder Problem
+Input: Start: "hit", End: "cog", Dictionary: ["hot", "dot", "dog", "lot", "log", "cog"]
+Expected Output:
+Shortest Transformation Length: 5
+
+---
+
+## Lab-41: Merge K Sorted Linked Lists
+Input: 3 Linked Lists: [1->4->5], [1->3->4], [2->6]
+Expected Output:
+Merged List: 1->1->2->3->4->4->5->6->NULL
+
+---
+
+## Lab-42: Find Articulation Points in a Graph
+Input: Graph with 5 vertices and edges (0-1, 0-2, 1-2, 1-3, 3-4)
+Expected Output:
+Articulation Points: 1, 3
+
+---
+
+## Lab-43: Rod Cutting Problem
+Input: Prices for rod lengths: [1, 5, 8, 9, 10, 17, 17, 20]; Rod Length=8
+Expected Output:
+Maximum Obtainable Value: 22
+
+---
+
+## Lab-44: Maximum Path Sum in a Binary Tree
+Input: Binary Tree: Root=10, Left=2, Right=10, Left->Left=20, Left->Right=1, Right->Right=-25, Right->Right->Left=3, Right->Right->Right=4
+Expected Output:
+Maximum Path Sum: 42
+
+---
+
+## Lab-45: Maximum Profit in Stock Trading
+Input: Stock Prices: [7, 1, 5, 3, 6, 4]
+Expected Output:
+Maximum Profit: 5
+
+---
+
+## Lab-46: Flatten a Binary Tree into a Linked List
+Input: Binary Tree: Root=1, Left=2, Right=5, Left->Left=3, Left->Right=4, Right->Right=6
+Expected Output:
+Flattened Tree: 1->2->3->4->5->6->NULL
+
+---
+
+## Lab-47: Check If a Graph is Bipartite
+Input: Graph with 4 vertices and edges (0-1, 1-2, 2-3, 3-0)
+Expected Output:
+Bipartite: No
+
+---
+
+## Lab-48: Count Distinct Substrings
+Input: String: "abc"
+Expected Output:
+Number of Distinct Substrings: 6
+
+---
+
+## Lab-49: Maximum Flow Using Ford-Fulkerson Algorithm
+Input: Graph with 4 vertices and capacities: (0->1:10, 0->2:5, 1->2:15, 1->3:10, 2->3:10)
+Expected Output:
+Maximum Flow: 15
+
+---
+
+## Lab-50: Strassen's Matrix Multiplication
+Input:
+Matrix A:
+1 2
+3 4
+Matrix B:
+5 6
+7 8
+Expected Output:
+Resultant Matrix:
+19 22
+43 50
+
+---
