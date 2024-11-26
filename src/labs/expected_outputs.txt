@@ -81,10 +81,22 @@ Merged array: 1 2 3 4 5 6
 
 ---
 
-## Lab-11: Count Leaf Nodes in Binary Tree
-Input: Binary Tree: Root=10, Left=20, Right=30
+## Lab-11: Graph Adjacency List
+Input:
+5
+0 1
+0 4
+1 2
+1 3
+1 4
+2 3
+3 4
 Expected Output:
-Leaf nodes: 2
+Adjacency list of vertex 0: 1 -> 4 -> 
+Adjacency list of vertex 1: 2 -> 3 -> 4 -> 
+Adjacency list of vertex 2: 3 -> 
+Adjacency list of vertex 3: 4 -> 
+Adjacency list of vertex 4: 
 
 ---
 
@@ -159,235 +171,265 @@ Result: 32
 
 ---
 
-## Lab-21: Transpose of a Matrix
-Input:
-Matrix:
-1 2 3
-4 5 6
+## Lab-21: Merge Sort
+Input: Array: 38 27 43 3 9 82 10
 Expected Output:
-Transposed Matrix:
-1 4
-2 5
-3 6
+Sorted array: 3 9 10 27 38 43 82
 
 ---
 
-## Lab-22: Binary Search in Sorted Array
-Input: Array: 1 2 3 4 5, Key=4
+## Lab-22: Evaluate Postfix Expression
+Input: Postfix expression: 23+4*
 Expected Output:
-Key found at index: 3
+Result: 20
 
 ---
 
-## Lab-23: Linked List Reversal
-Input: Linked List: 1->2->3->NULL
+## Lab-23: Circular Queue
+Input: 10, 20, 30, 40, 50
 Expected Output:
+Circular Queue: 10 20 30 40 50
+Dequeued element: 10
+Circular Queue after dequeue: 20 30 40 50
+
 Reversed List: 3->2->1->NULL
 
 ---
 
-## Lab-24: Prime Numbers Using Sieve
-Input: 10
+## Lab-24: Priority Queue (Max Heap)
+Input: 20, 15, 30, 5
 Expected Output:
-Prime numbers: 2 3 5 7
+Heap elements: 30 15 20 5
+Deleted max element: 30
+Heap after deletion: 20 15 5
 
 ---
 
-## Lab-25: Sorting Strings
-Input: apple, banana, apricot
+## Lab-25: Dijkstra's Algorithm
+Input: Graph with 5 vertices and 7 edges
 Expected Output:
-Sorted Strings: apricot, apple, banana
+Shortest distances from source vertex 0:
+To vertex 1: 4
+To vertex 2: 8 
+To vertex 3: 7
+To vertex 4: 9
 
 ---
 
-## Lab-26: Factorial Using Recursion
-Input: 5
+## Lab-26: Cycle Detection in Graph
+Input:
+Enter the number of vertices and edges: 4 4
+Enter edge (u v): 0 1
+Enter edge (u v): 1 2 
+Enter edge (u v): 2 3
+Enter edge (u v): 3 1
 Expected Output:
-Factorial: 120
+Cycle detected in the graph
 
 ---
 
-## Lab-27: Check Palindrome
+## Lab-27: String Palindrome
 Input: madam
 Expected Output:
-Palindrome: Yes
+The string is a palindrome.
 
 ---
 
-## Lab-28: Merge Sort
-Input: Array: 5 4 3 2 1
+## Lab-28: Kruskal's MST
+Input: Graph with 4 vertices and 5 edges
 Expected Output:
-Sorted Array: 1 2 3 4 5
+Edges in MST:
+(0,1) weight: 10
+(1,2) weight: 15
+(2,3) weight: 20
+Total MST cost: 45
 
 ---
 
-## Lab-29: Longest Common Subsequence
-Input: Strings: ABCD, ACDB
+## Lab-29: Count Tree Nodes
+Input: Binary tree with 7 nodes
 Expected Output:
-Length of LCS: 3
+Number of nodes: 7
 
 ---
 
-## Lab-30: Hash Table with Chaining
-Input: Keys: 10, 20, 30
+## Lab-30: Doubly Linked List
+Input: Insert: 10, 20, 30, Delete: 20
 Expected Output:
-Hash Table:
-Index 0: 10
-Index 1: 20
-Index 2: 30
+List after insertion: 10<->20<->30
+List after deletion: 10<->30
 
 ---
 
-## Lab-31: Detect Cycle in a Linked List
-Input: Linked List with cycle at node 3
+## Lab-31: Insertion Sort
+Input: 64 34 25 12 22 11 90
 Expected Output:
-Cycle detected: Yes
+Sorted array: 11 12 22 25 34 64 90
 
 ---
 
-## Lab-32: Count Number of Islands
-Input: 4x4 Grid:
-1 1 0 0
-1 0 0 1
-0 0 1 1
-0 0 0 1
+## Lab-32: Matrix Transpose
+Input: 3x3 matrix
+1 2 3
+4 5 6
+7 8 9
 Expected Output:
-Number of islands: 3
+Transposed matrix:
+1 4 7
+2 5 8
+3 6 9
 
 ---
 
-## Lab-33: Find Maximum Depth of a Binary Tree
-Input: Binary Tree: Root=1, Left=2, Right=3, Right->Right=4
+## Lab-33: Maximum Subarray Sum
+Input: -2 -3 4 -1 -2 1 5 -3
 Expected Output:
-Maximum Depth: 3
+Maximum contiguous sum: 7
 
 ---
 
-## Lab-34: Find Kth Smallest Element in an Array
-Input: Array: 7 10 4 3 20 15, K=3
+## Lab-34: String Anagrams
+Input: "listen", "silent"
 Expected Output:
-Kth Smallest Element: 7
+The strings are anagrams.
 
 ---
 
-## Lab-35: Trie with Deletion Operation
-Input: Insert "hello", "world"; Delete "hello"
+## Lab-35: Reverse Linked List
+Input: 1->2->3->NULL
 Expected Output:
-Search for 'hello': Not Found
-Search for 'world': Found
+Original List: 1->2->3->NULL
+Reversed List: 3->2->1->NULL
 
 ---
 
-## Lab-36: Floyd Cycle Detection Algorithm
-Input: Sequence: 1 2 3 4 2
+## Lab-36: Tower of Hanoi
+Input: 3 disks
 Expected Output:
-Cycle detected: Yes
+Move disk 1 from A to C
+Move disk 2 from A to B
+Move disk 1 from C to B
+Move disk 3 from A to C
+Move disk 1 from B to A
+Move disk 2 from B to C
+Move disk 1 from A to C
 
 ---
 
-## Lab-37: Serialize and Deserialize a Binary Tree
-Input: Binary Tree: Root=1, Left=2, Right=3, Right->Left=4, Right->Right=5
+## Lab-37: Prime Numbers
+Input: 20
 Expected Output:
-Serialized: 1,2,#,#,3,4,#,#,5,#,#
-Deserialized: Same Binary Tree Structure
+Prime numbers up to 20: 2 3 5 7 11 13 17 19
 
 ---
 
-## Lab-38: Job Scheduling Problem
-Input: Jobs (Profit, Deadline): (20, 2), (15, 2), (10, 1), (5, 3), (1, 3)
+## Lab-38: Binary Search
+Input: Array: 2 3 4 10 40, Search: 10
 Expected Output:
-Maximum Profit: 40
+Element found at index 3
 
 ---
 
-## Lab-39: Z-Algorithm for Pattern Matching
-Input: Text: "abcxabcdabxabcdabcdabcy", Pattern: "abcdabcy"
+## Lab-39: Matrix Determinant
+Input: 3x3 matrix
+1 2 3
+4 5 6
+7 8 9
 Expected Output:
-Pattern found at index: 15
+Determinant: 0
 
 ---
 
-## Lab-40: Word Ladder Problem
-Input: Start: "hit", End: "cog", Dictionary: ["hot", "dot", "dog", "lot", "log", "cog"]
+## Lab-40: Hash Table
+Input: Insert: "apple", "banana", "orange"
 Expected Output:
-Shortest Transformation Length: 5
+Hash table contents:
+Bucket 0: apple
+Bucket 2: banana
+Bucket 4: orange
 
 ---
 
-## Lab-41: Merge K Sorted Linked Lists
-Input: 3 Linked Lists: [1->4->5], [1->3->4], [2->6]
+## Lab-41: Largest Connected Component
+Input: Graph with 6 vertices
 Expected Output:
-Merged List: 1->1->2->3->4->4->5->6->NULL
+Size of largest connected component: 4
 
 ---
 
-## Lab-42: Find Articulation Points in a Graph
-Input: Graph with 5 vertices and edges (0-1, 0-2, 1-2, 1-3, 3-4)
+## Lab-42: Balanced Binary Tree
+Input: Binary tree with 7 nodes
 Expected Output:
-Articulation Points: 1, 3
+The tree is balanced
 
 ---
 
-## Lab-43: Rod Cutting Problem
-Input: Prices for rod lengths: [1, 5, 8, 9, 10, 17, 17, 20]; Rod Length=8
+## Lab-43: Floyd-Warshall Algorithm
+Input: Graph with 4 vertices
 Expected Output:
-Maximum Obtainable Value: 22
+Shortest distances between all pairs of vertices:
+  0  4  8  9
+  4  0  6  7
+  8  6  0  5
+  9  7  5  0
 
 ---
 
-## Lab-44: Maximum Path Sum in a Binary Tree
-Input: Binary Tree: Root=10, Left=2, Right=10, Left->Left=20, Left->Right=1, Right->Right=-25, Right->Right->Left=3, Right->Right->Right=4
+## Lab-44: Permutations and Combinations
+Input: n=5, r=3
 Expected Output:
-Maximum Path Sum: 42
+Permutations: 60
+Combinations: 10
 
 ---
 
-## Lab-45: Maximum Profit in Stock Trading
-Input: Stock Prices: [7, 1, 5, 3, 6, 4]
+## Lab-45: Armstrong Number
+Input: 153
 Expected Output:
-Maximum Profit: 5
+153 is an Armstrong number
 
 ---
 
-## Lab-46: Flatten a Binary Tree into a Linked List
-Input: Binary Tree: Root=1, Left=2, Right=5, Left->Left=3, Left->Right=4, Right->Right=6
+## Lab-46: Binary Tree Height
+Input: Binary tree with 7 nodes
 Expected Output:
-Flattened Tree: 1->2->3->4->5->6->NULL
+Height of tree: 3
 
 ---
 
-## Lab-47: Check If a Graph is Bipartite
-Input: Graph with 4 vertices and edges (0-1, 1-2, 2-3, 3-0)
+## Lab-47: Median of Sorted Arrays
+Input: arr1: 1 3 5, arr2: 2 4 6
 Expected Output:
-Bipartite: No
+Median: 3.5
 
 ---
 
-## Lab-48: Count Distinct Substrings
-Input: String: "abc"
+## Lab-48: Reverse Words
+Input: "Hello World Program"
 Expected Output:
-Number of Distinct Substrings: 6
+Reversed string: "Program World Hello"
 
 ---
 
-## Lab-49: Maximum Flow Using Ford-Fulkerson Algorithm
-Input: Graph with 4 vertices and capacities: (0->1:10, 0->2:5, 1->2:15, 1->3:10, 2->3:10)
+## Lab-49: Prim's Algorithm
+Input: Graph with 5 vertices
 Expected Output:
-Maximum Flow: 15
+Edges in MST:
+(0-1): 2
+(1-2): 3
+(2-3): 1
+(3-4): 4
+Total MST cost: 10
 
 ---
 
-## Lab-50: Strassen's Matrix Multiplication
-Input:
-Matrix A:
-1 2
-3 4
-Matrix B:
-5 6
-7 8
+## Lab-50: Character Frequency
+Input: "hello world"
 Expected Output:
-Resultant Matrix:
-19 22
-43 50
-
----
+h: 1
+e: 1
+l: 3
+o: 2
+w: 1
+r: 1
+d: 1
